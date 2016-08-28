@@ -1,3 +1,4 @@
 language: csharp
 solution: MinecraftInstallerPP.sln
-script: ./build.sh
+script:
+  - ./build.sh
