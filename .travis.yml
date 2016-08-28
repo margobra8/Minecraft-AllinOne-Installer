@@ -1,4 +1,6 @@
 language: csharp
 solution: MinecraftInstallerPP.sln
+before_install:
+  - chmod u+x ./build.sh
 script:
   - ./build.sh
