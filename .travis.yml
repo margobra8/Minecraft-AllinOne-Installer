@@ -1,0 +1,4 @@
+language: csharp
+solution: MinecraftInstallerPP.sln
+script:    # build dat shit tho
+  - ./build.sh
